@@ -1,0 +1,6 @@
+DEFINE FILE_PATH_LEN = 256;
+
+FUNCTION le_result_t createFile (
+    string FilePath[FILE_PATH_LEN] IN,
+    int8 userID IN
+);

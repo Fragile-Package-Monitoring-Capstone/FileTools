@@ -1,0 +1,15 @@
+version: 0.5
+sandboxed: false
+
+executables: {
+    filetools = ( fileToolComponent )
+}
+
+processes: {
+    run: {
+        ( filetools )
+    }
+}
+extern: {
+    createFile = filetools.fileToolComponent.FileTools
+}

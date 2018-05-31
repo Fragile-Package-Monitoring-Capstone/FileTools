@@ -1,0 +1,8 @@
+provides: {
+    api: {
+        FileTools = FileTools.api
+    }
+}
+sources: {
+    FileTools.c
+}
